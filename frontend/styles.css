@@ -1,0 +1,101 @@
+/* CSS-styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #569ccb 0%, #c4d2fa 100%);
+}
+
+
+
+
+#synergy {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button {
+  background-color: #82d6f4;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight:bold ;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #569ccb;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media screen and (max-width: 414px) {
+  
+
+  form {
+    
+    max-width: 320px; /* Reduced max width of the form */
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 8px;
+  }
+}
